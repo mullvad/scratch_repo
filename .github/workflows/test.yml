@@ -1,0 +1,11 @@
+name: build images
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  drone-ci-generic:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello there"
