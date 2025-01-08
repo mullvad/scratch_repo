@@ -1,10 +1,6 @@
 name: build images
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - '**'
-  pull_request:
 
 jobs:
   drone-ci-generic:
